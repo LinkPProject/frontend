@@ -1,0 +1,79 @@
+.job-list{
+    margin-top: 1%;
+    margin-left:5%;
+    margin-right:5%;
+    padding: 1rem;
+    background-color: var(--greyColor);
+}
+
+.job-card{
+    display:flex;
+    justify-content:space-between;
+    padding: 1rem;
+    margin: 1rem;
+    min-height: 100px;
+    align-items: center;
+    background-color:var(--whiteColor) ;
+    box-shadow: rgba(0,0,0,0.16) 0px 1px 4px;
+    cursor: pointer;
+}
+
+.job-card:hover{
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+}
+
+.job-name{
+    display:flex;
+}
+
+.job-profile{
+    width:60px;
+    height: 60px;
+    margin:0.5rem;
+}
+
+.job-detail{
+    padding:0 10px;
+}
+
+.job-detail > h4{
+    color: rgb(20, 102, 130);
+    font-size: 0.9rem;
+}
+
+.job-detail > p{
+    display:-webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp:2 ;
+    -webkit-box-orient:vertical;
+}
+
+.job-label{
+    display:flex;
+    flex-wrap:wrap;    
+}
+
+.job-label > a{
+    padding:0 1rem;
+    margin:0.2rem;
+    color:white;
+    text-decoration:none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.label-a{
+    background-color: red;
+}
+
+.label-b{
+    background-color: blue;
+}
+
+.label-c{
+    background-color: black;
+}
+
+.job-posted{
+    font-size: 0.8rem;
+}
